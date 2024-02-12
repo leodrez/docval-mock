@@ -43,6 +43,14 @@ router.get('/auth', (req, res) => {
     res.json(authResponse);
 });
 
+router.post('/auth', (req, res) => {
+
+    console.log("Endpoint '/auth' triggered.")
+
+    res.json(authResponse);
+});
+
+
 router.get('/document/actual/:documentId/additional/info', (req, res) => {
     const { documentId } = req.params;
 
