@@ -181,3 +181,5 @@ router.get('/document/reasons', (req, res) => {
 
 app.use(context, router);
 app.listen(port, () => console.log(`Mock-server listening on port ${port}!`));
+
+module.exports = app;
