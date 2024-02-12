@@ -1,0 +1,209 @@
+{
+    "history": [
+        {
+            "key": "febrero 2024",
+            "logs": [
+                {
+                    "id": "41ee5229-7430-48fd-bd5f-e1322793dafd",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T15:15:48",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "f9a7b93e-7147-43e5-a303-d1f725f6f061",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T15:15:43",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "0ef76b3a-1ffb-4a76-82c5-71b1bd254a8b",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T15:14:44",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "afa937d7-d941-4578-9324-44e6f74ed6ea",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T15:14:44",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "f923518c-cd89-4d21-8ab7-07391fc47019",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T15:03:36",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "4d3d2b15-fbae-4bbf-ae42-b51b1c3c9822",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T15:03:35",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "86d8eb35-4f09-43ec-a0f8-4944da1a01a8",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:55:38",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "7a5279cc-c9b0-4853-b4a6-f6d1d13cc6f7",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:55:38",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "077e36d5-c367-47b2-ae4e-fcbe138f4c1e",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:55:38",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "16b94d76-52e3-4470-9de8-a56655b6479d",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:53:14",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "30bf7084-e355-4cea-a48d-495f4e564d53",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:53:12",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "1eddf301-680f-4a72-ac4c-8bf112faefc5",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:44:41",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "1fb86b51-feec-4378-aedc-f447cc4cf5fb",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:19:45",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "e74a479e-e244-4d5f-9c0b-948d36ae31f8",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:18:57",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "fb7fc737-5db2-4a05-a33b-6c77bdcd87c2",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:18:56",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "b727ec40-aa98-4ec8-bfad-4fb0acc4b3ff",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:08:17",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "714897a1-229f-424d-b1d1-420360df17ce",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:07:37",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "ed4ca09d-9ea1-4553-a7d8-23b1919d01a7",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:02:14",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "0c194dd2-9de7-4502-8eaa-54e5d4b5bba3",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T14:02:09",
+                    "status": "READY",
+                    "documents": null,
+                    "actionGroup": null
+                },
+                {
+                    "id": "080da92e-7d72-4b90-9df2-356b72c369b5",
+                    "user": "Administrador Pruebas",
+                    "action": null,
+                    "auditType": "USER",
+                    "date": "2024-02-07T13:46:57",
+                    "status": "IN_PROGRESS",
+                    "documents": null,
+                    "actionGroup": null
+                }
+            ]
+        }
+    ]
+}

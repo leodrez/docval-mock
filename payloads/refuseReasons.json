@@ -1,0 +1,84 @@
+{
+    "reasons": [
+        {
+            "key": "INCOMPLETE_DOCUMENT",
+            "title": "Documento Incompleto",
+            "description": "Parte de contenido no esta presente en la imagen. Tome nuevamente la captura con el contenido completo."
+        },
+        {
+            "key": "QUALITY",
+            "title": "Calidad",
+            "description": "La calidad del documentos no es buena. Tome nuevamente la captura y verifique que el contenido sea legible y claro."
+        },
+        {
+            "key": "DOCUMENT_NAME",
+            "title": "Nombre en Documento",
+            "description": "El nombre en el documento no corresponde a la identidad de esta transacción."
+        },
+        {
+            "key": "DOCUMENT_NUMBER",
+            "title": "Numero en Documento",
+            "description": "El número en el documento no corresponde a la identidad de esta transacción."
+        },
+        {
+            "key": "IDENTIFICATION",
+            "title": "Identificación",
+            "description": "La foto sometida no coincide con la foto previa en el sistema"
+        },
+        {
+            "key": "SHADDOWS_LIGHT",
+            "title": "Sombras y Luz",
+            "description": "Cualidades de sombras y luz en la imagen no son aceptables. Tome una foto acorde con los requerimientos de Sombras y Luz."
+        },
+        {
+            "key": "BACKGROUND",
+            "title": "Fondo",
+            "description": "El fondo de la imagen debe ir acorde con los requerimientos establecidos.  Tome una foto acorde con los requerimientos de Fondo."
+        },
+        {
+            "key": "GLASSES",
+            "title": "Espejuelos",
+            "description": "El uso de espejuelos o gafas no es aceptado. Tome una foto acorde con los requerimientos de espejuelos."
+        },
+        {
+            "key": "SIZE_POSITION",
+            "title": "Tamaño y Posición",
+            "description": "El tamaño y la posición de la imagen no son aceptables.  Tome una foto acorde con los requerimientos de Tamaño y Posición."
+        },
+        {
+            "key": "ALTERATIONS",
+            "title": "Retoques y Alteraciones",
+            "description": "La imagen debe estar libre de retoques y alteraciones."
+        },
+        {
+            "key": "EXPRESSION",
+            "title": "Pose y Expresión",
+            "description": "La foto contiene pose o expresión. Tome una foto acorde con los requerimientos de pose y expresión ."
+        },
+        {
+            "key": "CLOTHING",
+            "title": "Vestimenta, Sombreros y Cabello",
+            "description": "El uso de sombreros o cubiertas para la cabeza no es aceptado, excepto con fines religiosos o médicos acorde con los requerimientos establecidos.  Tome una foto acorde con los requerimientos de Vestimenta, Sombreros y Cabello."
+        },
+        {
+            "key": "CONTENT",
+            "title": "Contenido",
+            "description": "El contenido es inválido"
+        },
+        {
+            "key": "TYPE",
+            "title": "Tipo de Documento",
+            "description": "El tipo de documento es inválido."
+        },
+        {
+            "key": "PHYSICAL_LICENSE",
+            "title": "Licencia Fisica",
+            "description": "La licencia sometida debe ser su licencia fisica. No se aceptará la Licencia Virtual para este documentos. Tome nuevamente esta captura con el documento correspondiente."
+        },
+        {
+            "key": "PUERTORICO_LICENSE",
+            "title": "Licencia de PR",
+            "description": "Solo licencias de Puerto Rico son aceptadas para este documento. Tome nuevamente esta captura con el documento correspondiente."
+        }
+    ]
+}

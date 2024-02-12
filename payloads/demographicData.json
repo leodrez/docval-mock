@@ -1,0 +1,16 @@
+{
+    "license": {
+        "name": "Hermenegildo",
+        "secondName": "Ivan",
+        "lastName": "Maldonado",
+        "secondLastName": "Quinonez",
+        "birthDate": "03-ABR-1980"
+    },
+    "sor": {
+        "name": "Another",
+        "secondName": "Test",
+        "lastName": "User",
+        "secondLastName": "Placeholder",
+        "birthDate": "03-ABR-1980"
+    }
+}

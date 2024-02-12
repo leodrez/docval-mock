@@ -1,0 +1,27 @@
+{
+    "caseId": "6248dbf1-9af4-48cd-8430-a8c35ac72329",
+    "extendedReview": true,
+    "personName": {
+        "fullName": "JUAN DEL PUEBLO 62",
+        "firstName": "JUAN",
+        "lastName": "DEL PUEBLO 62"
+    },
+    "identificationNumber": 12341234,
+    "identificationType": null,
+    "documents": [
+        {
+            "id": "8edff1ae-b34b-4421-a1d3-64870d7bb6a6",
+            "title": "Extended Review",
+            "type": "EXTENDED_REVIEW",
+            "subType": "EXTENDED_REVIEW",
+            "url": "/api/document/8edff1ae-b34b-4421-a1d3-64870d7bb6a6/jpg",
+            "status": null,
+            "ref": "EXTENDED_REVIEW",
+            "requested": false
+        }
+    ],
+    "status": "IN_PROGRESS",
+    "readOnly": true,
+    "caseDate": null,
+    "retries": 0
+}

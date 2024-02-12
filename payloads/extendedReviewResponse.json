@@ -1,0 +1,176 @@
+[
+    {
+        "key": "PHYSICAL_ID",
+        "approvalType": "BOOLEAN",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 0,
+        "title": "Tarjeta física",
+        "instructions": "Tiene la tarjeta física y corresponde a la persona que la esta presentando?",
+        "tips": "Solicite a la persona su licencia o identificación. No se aceptará la licencia virtual.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "Tiene la tarjeta física y corresponde a la persona que la esta presentando?",
+            "text": "Solicite a la persona su licencia o identificación. No se aceptará la licencia virtual.",
+            "highlight": "Necesitará la tarjeta para los próximos pasos."
+        },
+        "inputMask": null
+    },
+    {
+        "key": "VALIDITY",
+        "approvalType": "BOOLEAN",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 1,
+        "title": "Vigencia de tarjeta",
+        "instructions": "La licencia esta vigente (no esta expirada)?",
+        "tips": "Valide que la licencia o identificación este vigente. De estar rechazada debe rechazar la solicitud.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "La licencia esta vigente (no esta expirada)?",
+            "text": "Valide que la licencia o identificación este vigente. De estar rechazada debe rechazar la solicitud.",
+            "additional": ""
+        },
+        "inputMask": null
+    },
+    {
+        "key": "CARD_STATUS",
+        "approvalType": "BOOLEAN",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 2,
+        "title": "Estado de tarjeta",
+        "instructions": "La tarjeta está en buen estado (no esta mutilada)?",
+        "tips": "Verifique que la tarjeta este en buen estado. No se aceptaran tarjetas mutiladas.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "La tarjeta está en buen estado (no esta mutilada)?",
+            "text": "Verifique que la tarjeta este en buen estado. No se aceptaran tarjetas mutiladas.",
+            "additional": ""
+        },
+        "inputMask": null
+    },
+    {
+        "key": "SECURITY_CODE",
+        "approvalType": "NUMBER",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 3,
+        "title": "Código de seguridad",
+        "instructions": "El código de seguridad de 4 dígitos se encuentra en la parte inferior izquierda del código de barras en la parte posterior de la tarjeta.",
+        "tips": "Use de referencia el recuadro rojo en la imagen.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "Ingrese el código de seguridad de la tarjeta",
+            "text": "El código de 4 dígitos solicitado se encuentra en la parte inferior izquierda del código de barras en la parte posterior de la tarjeta. Use de referencia el recuadro rojo en la imagen.",
+            "additional": ""
+        },
+        "inputMask": "9999"
+    },
+    {
+        "key": "CONTROL_NUMBER",
+        "approvalType": "NUMBER",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 4,
+        "title": "Número de control",
+        "instructions": "El número de control se encuentra en la parte superior derecha del código de barras en la parte posterior de la tarjeta.",
+        "tips": "Use de referencia el recuadro rojo en la imagen.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "Ingrese los últimos 7 dígitos del número de control",
+            "text": "Los últimos 7 dígitos solicitados se encuentran en la parte superior derecha sobre el código de barras en la parte posterior de la tarjeta. Use de referencia el recueadro rojo en la imagen.",
+            "additional": ""
+        },
+        "inputMask": "9999999"
+    },
+    {
+        "key": "REQUEST_COMPARISSON",
+        "approvalType": "BOOLEAN",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 5,
+        "title": "Comparación con imágenes de la solicitud de mDL",
+        "instructions": "Identifique que la foto sometida coincide con la foto previa en el sistema.",
+        "tips": "Si la foto sometida no tiene similitud a la foto previa en sistema, se debe rechazar el documento.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "La persona presente es la misma mostrada en las siguientes fotos?",
+            "text": "Confirme la identidad de la persona que hizo la solicitud mDL contra la persona que esta presente.",
+            "additional": "",
+            "images": [
+                {
+                    "src": "https://picsum.photos/200"
+                },
+                {
+                    "src": "https://picsum.photos/200"
+                }
+            ]
+        },
+        "inputMask": null,
+        "stepConfirmation": true
+    },
+    {
+        "key": "IMAGES_COMPARISSON",
+        "approvalType": "BOOLEAN",
+        "supportImage": {
+            "enable": true,
+            "highlight": true
+        },
+        "index": 6,
+        "title": "Comparación con fotos en sistema",
+        "instructions": "Haga comparación con la foto y la persona presente para ver si es la misma persona.",
+        "tips": "Si la foto sometida no tiene similitud a la foto previa en sistema, se debe rechazar el documento.",
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "La foto actual en DAVID+ es la misma foto en la licencia de la persona?",
+            "text": "Compare la foto de la licencia o la identificación fisica con la foto del sistema mostrada a la derecha.",
+            "additional": "",
+            "validationImages": true
+        },
+        "inputMask": null,
+        "confirmation": {
+            "enabled": true,
+            "title": "Foto actual en sistema",
+            "text": "La foto fue corregida en DAVID+?"
+        }
+    },
+    {
+        "key": "DEMOGRAPHICS",
+        "approvalType": "BOOLEAN",
+        "supportImage": {
+            "enable": false,
+            "highlight": false
+        },
+        "index": 7,
+        "title": "Verificación de datos",
+        "instructions": "Coinciden los dátos demográficos entre la licencia y DAVID+?",
+        "tips": null,
+        "allowEditing": false,
+        "extendedReview": {
+            "title": "Coinciden los dátos demográficos entre la licencia y DAVID+?",
+            "text": "",
+            "additional": "",
+            "table": true
+        },
+        "inputMask": null,
+        "confirmation": {
+            "enabled": true,
+            "title": "Foto actual en sistema",
+            "text": "Se corrigio la disparidad?"
+        },
+        "stepConfirmation": true
+    }
+]
