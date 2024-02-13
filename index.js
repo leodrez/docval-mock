@@ -2,7 +2,7 @@ const express = require("express");
 const fs = require('fs');
 const app = express();
 const router = express.Router();
-const port = 9091;
+const port = process.env.PORT || 9091;
 const context = '/api';
 
 const dashboardData = require('./payloads/dashboardStats.json')
@@ -14,6 +14,9 @@ const demographicData = require('./payloads/demographicData.json')
 const caseSubmitData = require('./payloads/caseSubmit.json')
 const historyData = require('./payloads/history.json')
 const reasonsData = require('./payloads/refuseReasons.json')
+const cors = require('cors');
+
+app.use(cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
