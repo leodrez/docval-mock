@@ -106,7 +106,8 @@ router.post('/mdl/case/:id/action/:action', (req, res) => {
 });
 
 // Opt out action
-router.post('/mdl/case/:id/opt-out', (req, res) => {
+// Actions: OUT / IN
+router.post('/mdl/case/:id/opt/:action', (req, res) => {
     const { id } = req.params;
 
     if (!id) {
