@@ -11,7 +11,7 @@
     "documents": [
         {
             "id": "8edff1ae-b34b-4421-a1d3-64870d7bb6a6",
-            "title": "Extended Review",
+            "title": "Certificado de Nacimiento",
             "type": "EXTENDED_REVIEW",
             "subType": "EXTENDED_REVIEW",
             "url": "/api/document/8edff1ae-b34b-4421-a1d3-64870d7bb6a6/jpg",
@@ -22,6 +22,6 @@
     ],
     "status": "IN_PROGRESS",
     "readOnly": true,
-    "caseDate": null,
+    "caseDate": 1708114014465,
     "retries": 0
 }
