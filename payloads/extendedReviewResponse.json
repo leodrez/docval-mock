@@ -27,11 +27,11 @@
         },
         "index": 1,
         "title": "Vigencia de tarjeta",
-        "instructions": "La licencia esta vigente (no esta expirada)?",
+        "instructions": "¿La licencia esta vigente (no esta expirada)?",
         "tips": "Valide que la licencia o identificación este vigente. De estar rechazada debe rechazar la solicitud.",
         "allowEditing": false,
         "extendedReview": {
-            "title": "La licencia esta vigente (no esta expirada)?",
+            "title": "¿La licencia esta vigente (no esta expirada)?",
             "text": "Valide que la licencia o identificación este vigente. De estar rechazada debe rechazar la solicitud.",
             "additional": ""
         },
@@ -46,11 +46,11 @@
         },
         "index": 2,
         "title": "Estado de tarjeta",
-        "instructions": "La tarjeta está en buen estado (no esta mutilada)?",
+        "instructions": "¿La tarjeta está en buen estado (no esta mutilada)?",
         "tips": "Verifique que la tarjeta este en buen estado. No se aceptaran tarjetas mutiladas.",
         "allowEditing": false,
         "extendedReview": {
-            "title": "La tarjeta está en buen estado (no esta mutilada)?",
+            "title": "¿La tarjeta está en buen estado (no esta mutilada)?",
             "text": "Verifique que la tarjeta este en buen estado. No se aceptaran tarjetas mutiladas.",
             "additional": ""
         },
@@ -107,7 +107,7 @@
         "tips": "Si la foto sometida no tiene similitud a la foto previa en sistema, se debe rechazar el documento.",
         "allowEditing": false,
         "extendedReview": {
-            "title": "La persona presente es la misma mostrada en las siguientes fotos?",
+            "title": "¿La persona presente es la misma mostrada en las siguientes fotos?",
             "text": "Confirme la identidad de la persona que hizo la solicitud mDL contra la persona que esta presente.",
             "additional": "",
             "images": [
@@ -135,7 +135,7 @@
         "tips": "Si la foto sometida no tiene similitud a la foto previa en sistema, se debe rechazar el documento.",
         "allowEditing": false,
         "extendedReview": {
-            "title": "La foto actual en DAVID+ es la misma foto en la licencia de la persona?",
+            "title": "¿La foto actual en DAVID+ es la misma foto en la licencia de la persona?",
             "text": "Compare la foto de la licencia o la identificación fisica con la foto del sistema mostrada a la derecha.",
             "additional": "",
             "validationImages": true
@@ -144,7 +144,7 @@
         "confirmation": {
             "enabled": true,
             "title": "Foto actual en sistema",
-            "text": "La foto fue corregida en DAVID+?"
+            "text": "¿La foto fue corregida en DAVID+?"
         }
     },
     {
@@ -156,11 +156,11 @@
         },
         "index": 7,
         "title": "Verificación de datos",
-        "instructions": "Coinciden los dátos demográficos entre la licencia y DAVID+?",
+        "instructions": "¿Coinciden los dátos demográficos entre la licencia y DAVID+?",
         "tips": null,
         "allowEditing": false,
         "extendedReview": {
-            "title": "Coinciden los dátos demográficos entre la licencia y DAVID+?",
+            "title": "¿Coinciden los dátos demográficos entre la licencia y DAVID+?",
             "text": "",
             "additional": "",
             "table": true
@@ -169,7 +169,7 @@
         "confirmation": {
             "enabled": true,
             "title": "Foto actual en sistema",
-            "text": "Se corrigio la disparidad?"
+            "text": "¿Se corrigio la disparidad?"
         },
         "stepConfirmation": true
     }
