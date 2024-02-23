@@ -8,7 +8,7 @@
     },
     "index": 0,
     "title": "Tarjeta física",
-    "instructions": "¿Tiene la tarjeta física y corresponde a la persona que la esta presentando?",
+    "instructions": "¿Tiene la tarjeta física y corresponde a la persona que la está presentando?",
     "tips": "Solicite a la persona su licencia o identificación. No se aceptará la licencia virtual.",
     "allowEditing": false,
     "extendedReview": {
@@ -27,12 +27,12 @@
     },
     "index": 1,
     "title": "Vigencia de tarjeta",
-    "instructions": "¿La licencia esta vigente (no está expirada)?",
-    "tips": "Valide que la licencia o identificación este vigente. De estar expirada debe rechazar la solicitud.",
+    "instructions": "¿La licencia está vigente (no está expirada)?",
+    "tips": "Valide que la licencia o identificación esté vigente. De estar expirada debe rechazar la solicitud.",
     "allowEditing": false,
     "extendedReview": {
-      "title": "¿La licencia esta vigente (no esta expirada)?",
-      "text": "Valide que la licencia o identificación este vigente. De estar expirada debe rechazar la solicitud.",
+      "title": "¿La licencia está vigente (no está expirada)?",
+      "text": "Valide que la licencia o identificación esté vigente. De estar expirada debe rechazar la solicitud.",
       "additional": ""
     },
     "inputMask": null
@@ -46,12 +46,12 @@
     },
     "index": 2,
     "title": "Estado de tarjeta",
-    "instructions": "¿La tarjeta está en buen estado (no esta mutilada)?",
-    "tips": "Verifique que la tarjeta este en buen estado. No se aceptaran tarjetas mutiladas.",
+    "instructions": "¿La tarjeta está en buen estado (no está mutilada)?",
+    "tips": "Verifique que la tarjeta esté en buen estado. No se aceptarán tarjetas mutiladas.",
     "allowEditing": false,
     "extendedReview": {
-      "title": "¿La tarjeta está en buen estado (no esta mutilada)?",
-      "text": "Verifique que la tarjeta este en buen estado. No se aceptaran tarjetas mutiladas.",
+      "title": "¿La tarjeta está en buen estado (no está mutilada)?",
+      "text": "Verifique que la tarjeta esté en buen estado. No se aceptarán tarjetas mutiladas.",
       "additional": ""
     },
     "inputMask": null
