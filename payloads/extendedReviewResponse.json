@@ -145,7 +145,8 @@
       "enabled": true,
       "title": "Foto actual en sistema",
       "text": "¿La foto fue corregida en DAVID+?"
-    }
+    },
+    "stepConfirmation": true
   },
   {
     "key": "DEMOGRAPHICS",
