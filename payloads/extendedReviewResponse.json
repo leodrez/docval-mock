@@ -16,7 +16,12 @@
       "text": "Solicite a la persona su licencia o identificación. No se aceptará la licencia virtual.",
       "highlight": "Necesitará la tarjeta para los próximos pasos."
     },
-    "inputMask": null
+    "validationControls": {
+      "inputMask": null,
+      "rejectText": "No - Rechazar",
+      "approveText": "Si - Continuar",
+      "placeholder": null
+    }
   },
   {
     "key": "VALIDITY",
@@ -35,7 +40,12 @@
       "text": "Valide que la licencia o identificación esté vigente. De estar expirada debe rechazar la solicitud.",
       "additional": ""
     },
-    "inputMask": null
+    "validationControls": {
+      "inputMask": null,
+      "rejectText": "No - Rechazar",
+      "approveText": "Si - Continuar",
+      "placeholder": null
+    }
   },
   {
     "key": "CARD_STATUS",
@@ -54,7 +64,12 @@
       "text": "Verifique que la tarjeta esté en buen estado. No se aceptarán tarjetas mutiladas.",
       "additional": ""
     },
-    "inputMask": null
+    "validationControls": {
+      "inputMask": null,
+      "rejectText": "No - Rechazar",
+      "approveText": "Si - Continuar",
+      "placeholder": null
+    }
   },
   {
     "key": "SECURITY_CODE",
@@ -73,7 +88,12 @@
       "text": "El código de 4 dígitos solicitado se encuentra en la parte inferior izquierda del código de barras en la parte posterior de la tarjeta. Use de referencia el recuadro rojo en la imagen.",
       "additional": ""
     },
-    "inputMask": "9999"
+    "validationControls": {
+      "inputMask": "9999",
+      "rejectText": null,
+      "approveText": null,
+      "placeholder": "Código de Seguridad"
+    }
   },
   {
     "key": "CONTROL_NUMBER",
@@ -92,7 +112,12 @@
       "text": "Los últimos 7 dígitos solicitados se encuentran en la parte superior derecha sobre el código de barras en la parte posterior de la tarjeta. Use de referencia el recueadro rojo en la imagen.",
       "additional": ""
     },
-    "inputMask": "9999999"
+    "validationControls": {
+      "inputMask": "9999999",
+      "rejectText": null,
+      "approveText": null,
+      "placeholder": "Número de Control"
+    }
   },
   {
     "key": "REQUEST_COMPARISSON",
@@ -120,8 +145,13 @@
         }
       ]
     },
-    "inputMask": null,
-    "stepConfirmation": true
+    "stepConfirmation": true,
+    "validationControls": {
+      "inputMask": null,
+      "rejectText": "No - Rechazar",
+      "approveText": "Si - Continuar",
+      "placeholder": null
+    }
   },
   {
     "key": "IMAGES_COMPARISSON",
@@ -140,11 +170,16 @@
       "text": "Compare la foto de la licencia o identificación física con la foto del sistema mostrada a la derecha.",
       "additional": ""
     },
-    "inputMask": null,
     "confirmation": {
       "enabled": true,
       "title": "Foto actual en sistema",
       "text": "¿La foto fue corregida en DAVID+?"
+    },
+    "validationControls": {
+      "inputMask": null,
+      "rejectText": "No - Rechazar",
+      "approveText": "Si - Continuar",
+      "placeholder": null
     }
   },
   {
@@ -165,12 +200,17 @@
       "additional": "",
       "table": true
     },
-    "inputMask": null,
     "confirmation": {
       "enabled": true,
       "title": "Foto actual en sistema",
       "text": "¿Se corrigio la disparidad?"
     },
-    "stepConfirmation": true
+    "stepConfirmation": true,
+    "validationControls": {
+      "inputMask": null,
+      "rejectText": "No - Rechazar",
+      "approveText": "Si - Continuar",
+      "placeholder": null
+    }
   }
 ]
